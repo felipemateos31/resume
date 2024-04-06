@@ -12,7 +12,7 @@ Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio
 
 ## 🛠️ Stack
 
-- [**Angular**](https://angular.dev/) - El framework web de la nueva época.
+- [**Angular**](https://angular.dev/) - Un gran framework web de la nueva época.
 
 ## 🔧 Info
 ### El proyecto fue generado con la version de [Angular CLI](https://github.com/angular/angular-cli)  17.3.3.
