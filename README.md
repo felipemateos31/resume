@@ -1,27 +1,43 @@
-# FjCv
+<div align="center">
+<img src="logo.png" height="90px" width="auto" /> 
+<h2>
+    <em>Curriculum</em> minimalista maquetado para web
+</h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+<p>
+Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán (midudev)</a>
+</p>
+</div>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Stack
 
-## Code scaffolding
+- [**Angular**](https://angular.dev/) - El framework web de la nueva época.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🔧 Info
+### El proyecto fue generado con la version de [Angular CLI](https://github.com/angular/angular-cli)  17.3.3.
 
-## Build
+### Puedes usar este [repo](https://github.com/felipemateos31/resume) como _template_ de un proyecto de Angular 17
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Agrega tu informacíon:
+```bash
+Edita el archivo `info.json` para crear tu propio CV.
+```
 
-## Running unit tests
+### Lanza el servidor de desarrollo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+ng s -o
+```
 
-## Running end-to-end tests
+## 📋 Comandos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+|     | Comando          | Acción                                        |
+| :-- | :--------------- | :-------------------------------------------- |
+| ⚙️  | `ng s -o` | Lanza un servidor de desarrollo local en  `localhost:4200`.  |
+| ⚙️  | `ng build`| Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🔑 Licencia
+
+[MIT](LICENSE.txt) - Creado por [**FelipeMateos**](https://github.com/felipemateos31).
