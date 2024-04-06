@@ -1,0 +1,25 @@
+<Section title="Educación">
+  <h1>Educación</h1>
+  <ul>
+    @for (edu of education; track $index) {
+    <li>
+      <article>
+        <header>
+          <div>
+            <h3>{{ edu.institution }}</h3>
+          </div>
+
+          <time>
+            {{ edu.startDate | date : "yyyy" }} -
+            {{ edu.endDate | date : "yyyy" }}
+          </time>
+        </header>
+
+        <footer>
+          <p>{{ edu.area }}</p>
+        </footer>
+      </article>
+    </li>
+    }
+  </ul>
+</Section>

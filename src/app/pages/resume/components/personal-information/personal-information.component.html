@@ -1,0 +1,43 @@
+<Section>
+  <div class="container">
+    <div class="info">
+      <h1>{{ personalInformation.name }}</h1>
+      <h2>{{ personalInformation.label }}</h2>
+      <span>
+        <svg-icon src="assets/icons/WorldMap.svg"></svg-icon>
+        {{ personalInformation.location.city }},{{
+          personalInformation.location.region
+        }}
+      </span>
+      <footer class="no-print">
+        <a
+          href="mailto:{{ personalInformation.email }}"
+          title="Enviar un correo electrónico a {{
+            personalInformation.name
+          }} al correo {{ personalInformation.email }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        <svg-icon src="assets/icons/Mail.svg"></svg-icon>
+        </a>
+        @for (socialMedia of personalInformation.profiles; track
+        socialMedia.network) {
+        <a
+          href="{{ socialMedia.url }}"
+          title="Visitar el perfil de {{ personalInformation.name }} en {{
+            socialMedia.network
+          }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg-icon src="assets/icons/{{ socialMedia.network }}.svg"></svg-icon>
+        </a>
+
+        }
+      </footer>
+    </div>
+    <figure>
+      <img src="assets/imgs/avatar.png" alt="{{ personalInformation.name }}" />
+    </figure>
+  </div>
+</Section>
