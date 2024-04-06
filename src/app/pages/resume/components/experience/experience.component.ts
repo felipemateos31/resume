@@ -1,6 +1,7 @@
+import { DatePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { works } from '../../../../../assets/info.json';
-import { DatePipe } from '@angular/common';
+import { IWork } from '../../../../core';
 
 @Component({
   selector: 'app-experience',
@@ -10,5 +11,5 @@ import { DatePipe } from '@angular/common';
   styleUrl: './experience.component.css',
 })
 export class ExperienceComponent {
-  works = works;
+  works: Array<IWork> = works;
 }

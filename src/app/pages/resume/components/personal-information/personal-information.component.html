@@ -4,13 +4,12 @@
       <h1>{{ personalInformation.name }}</h1>
       <h2>{{ personalInformation.label }}</h2>
       <span>
-        <svg-icon src="assets/icons/WorldMap.svg"></svg-icon>
-        {{ personalInformation.location.city }},{{
-          personalInformation.location.region
-        }}
+        <svg-icon src="assets/icons/worldmap.svg"></svg-icon>
+        {{ personalInformation.location.city }},
+        {{ personalInformation.location.region }}
       </span>
       <footer class="no-print">
-        <a
+        <!-- <a
           href="mailto:{{ personalInformation.email }}"
           title="Enviar un correo electrónico a {{
             personalInformation.name
@@ -19,7 +18,7 @@
           rel="noopener noreferrer"
         >
         <svg-icon src="assets/icons/Mail.svg"></svg-icon>
-        </a>
+        </a> -->
         @for (socialMedia of personalInformation.profiles; track
         socialMedia.network) {
         <a
@@ -30,7 +29,10 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <svg-icon src="assets/icons/{{ socialMedia.network }}.svg"></svg-icon>
+          <svg-icon
+            src="assets/icons/{{ socialMedia.network.toLowerCase() }}.svg"
+          >
+          </svg-icon>
         </a>
 
         }

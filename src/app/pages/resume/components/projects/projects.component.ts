@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { projects } from '../../../../../assets/info.json';
+import { SvgIconComponent } from 'angular-svg-icon';
+import { IProject } from '../../../../core';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [],
+  imports: [SvgIconComponent],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrl: './projects.component.css',
 })
 export class ProjectsComponent {
-  projects = projects;
+  projects: Array<IProject> = projects;
 }

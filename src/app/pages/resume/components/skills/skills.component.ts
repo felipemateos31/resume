@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { skills } from '../../../../../assets/info.json';
 import { SvgIconComponent } from 'angular-svg-icon';
+import { ISkill } from '../../../../core';
 
 @Component({
   selector: 'app-skills',
@@ -10,5 +11,5 @@ import { SvgIconComponent } from 'angular-svg-icon';
   styleUrl: './skills.component.css',
 })
 export class SkillsComponent {
-  skills = skills;
+  skills: Array<ISkill> = skills;
 }

@@ -17,7 +17,28 @@ import { SkillsComponent } from './components/skills/skills.component';
     ProjectsComponent,
     SkillsComponent,
   ],
-  templateUrl: './resume.component.html',
-  styleUrl: './resume.component.css',
+  template: `
+    <main>
+      <app-personal-information />
+      <app-about />
+      <app-experience />
+      <app-education />
+      <app-projects />
+      <!-- <app-skills /> -->
+    </main>
+  `,
+  styles: 
+  `main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
+  `,
 })
 export class ResumeComponent {}

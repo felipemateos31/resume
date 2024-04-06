@@ -5,9 +5,16 @@ import { basics } from '../../../../../assets/info.json';
   selector: 'app-about',
   standalone: true,
   imports: [],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css',
+  template: `
+    <Section title="Sobre mí">
+      <h2 class="section-title">Sobre mí</h2>
+      <p>
+        {{ summary }}
+      </p>
+    </Section>
+  `,
+  styles: '',
 })
 export class AboutComponent {
-  summary = basics.summary;
+  summary: string = basics.summary;
 }
