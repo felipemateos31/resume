@@ -1,1 +1,16 @@
-export * from './Resume'
+export {
+  IAward,
+  ICertificate,
+  IEducation,
+  IInterest,
+  ILanguage,
+  ILocation,
+  IPersonalInformation,
+  IProject,
+  IPublication,
+  IReference,
+  IResume,
+  ISkill,
+  ISocialMedia,
+  IWork,
+} from './resume';
