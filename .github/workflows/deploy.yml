@@ -23,7 +23,8 @@ jobs:
       run: npm run build:prod
       
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         github_token: ${{ secrets.GH_TOKEN }}
+        branch: main  
         publish_dir: ./dist/resume/browser  # Replace with your app's build output directory
