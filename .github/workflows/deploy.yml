@@ -26,5 +26,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GH_TOKEN }}
-        BRANCH: gh-pages
+        branch: gh-pages
         publish_dir: ./dist/resume/browser  # Replace with your app's build output directory
