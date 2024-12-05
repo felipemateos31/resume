@@ -1,0 +1,239 @@
+{
+    "basics": {
+      "name": "Felipe de Jesús Mateos Hernández",
+      "label": "Arquitecto de software | Ingeniero de software",
+      "image": "/me.webp",
+      "email": "felipemaher@gmail.com",
+      "phone": "+34 688888888",
+      "url": "https://felipemateos.dev",
+      "summary": "Hola soy Felipe tengo 9 años de experiencia como desarrollador, donde he formado partes de diversos equipos de sectores como banca, manufactura y fabricas de software, acutalmente me desempeño como arquitecto de software.",
+      "location": {
+        "address": "",
+        "postalCode": "66634",
+        "city": "Apodaca",
+        "countryCode": "MX",
+        "region": "Mexico"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "felipemaher",
+          "url": "https://www.linkedin.com/in/felipemaher"
+        }
+      ]
+    },
+    "education": [{
+      "institution": "Universidad del Noreste",
+      "url": "https://www.une.edu.mx/",
+      "area": "Ingenieria en sistemas computacionales y electronicos",
+      "studyType": "University",
+      "startDate": "2013-01-01",
+      "endDate": "2016-01-01",
+      "score": "9.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "works": [
+      {
+        "name": "CONTPAQi",
+        "position": "Arquitecto de software",
+        "url": "https://www.contpaqi.com/",
+        "startDate": "2023-04-03",
+        "endDate": null,
+        "summary": "Dentro de mis actividades realizo la arquitectura y diseño de software enfocado en los servicios de azure, empleado pricipios SOLID al igual que patrones de diseño.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Daltum System",
+        "position": "Ingeniero de software Sr",
+        "url": "https://daltum.mx/es/",
+        "startDate": "2022-06-01",
+        "endDate": "2023-03-31",
+        "summary": "Como desarrollador Sr mis principales funciones son análisis, desarrollo de nuevas funcionalidades y mejoras a código, al igual que la elaboración de diagramas de solución empleando tecnologías de nube con Azure.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "GIGA IT",
+        "position": "Ingeniero de automatización N2",
+        "url": "https://grupo-giga.com/es/inicio/",
+        "startDate": "2021-04-01",
+        "endDate": "2022-06-01",
+        "summary": "Mis actividades dentro de Giga es la asignación con Ternium en donde mis responsabilidades son, soporte y mantenimiento a HMI’s, desarrollo y mantenimiento de Windows Services, mantenimiento y actualización a sitios con angular 10 y 11, soporte en sitio para puestas en marcha.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Daltum System",
+        "position": "Desarrollador .Net Sr",
+        "url": "https://daltum.mx/es/",
+        "startDate": "2020-06-01",
+        "endDate": "2021-04-01",
+        "summary": "Durante mi estancia en Daltum estuve asignado a diversos clientes, en donde principalmente mis roles fueron como backend developer con .net y frontend con angular 7+.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Consiss",
+        "position": "Consultor .Net asignado a Yazaki",
+        "url": "http://www.consiss.com",
+        "startDate": "2017-07-01",
+        "endDate": "2020-04-01",
+        "summary": "Como consultor.Net durante mi estancia en Yazaki, realizaba las siguientes actividades, análisis de requerimientos, desarrollo e implementación en sitio y remota.",
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Banregio",
+        "position": "Analista Programador",
+        "url": "https://www.banregio.com/",
+        "startDate": "2016-08-01",
+        "endDate": "2017-06-01",
+        "summary": "Durante mi participación en BanRegio tuve la oportunidad de trabajar con las dos versiones de su sistema Core, dentro de mis actividades se encontraba atención a clientes para el análisis de requerimiento y generación de propuesta de solución, desarrollo de dichas propuestas, pruebas unitarias y con usuario para la validación de la solución. En mi estancia tuve la oportunidad de participar en dos proyectores internos en los cuales fueron varias áreas la que participaron, siendo proyectos de gran impacto para la empresa. ",
+        "highlights": [
+          "Started the company"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Minimal Resume",
+        "isActive": true,
+        "description": "Curriculum minimalista elaborado en angular 17",
+        "url": "https://github.com/felipemateos31/resume",
+        "github": "https://github.com/felipemateos31/resume",
+        "highlights": [
+          "Curriculum",
+          "Hoja de vida",
+          "Angular",
+          "MIT"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "dotnet",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Azure",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "Angular",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "SQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      }
+    ],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }]
+  }
