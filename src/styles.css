@@ -71,6 +71,7 @@ html {
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
+    text-align: justify;
   }
 
   .print {

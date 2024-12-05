@@ -24,7 +24,7 @@ import { SkillsComponent } from './components/skills/skills.component';
       <app-experience />
       <app-education />
       <app-projects />
-      <!-- <app-skills /> -->
+      <app-skills />
     </main>
   `,
   styles: 

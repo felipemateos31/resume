@@ -1,12 +1,12 @@
 {
     "basics": {
       "name": "Felipe de Jesús Mateos Hernández",
-      "label": "Arquitecto de software | Desarrollador .net | Azure",
+      "label": "Arquitecto de software | Ingeniero de software",
       "image": "/me.webp",
       "email": "felipemaher@gmail.com",
       "phone": "+34 688888888",
       "url": "https://felipemateos.dev",
-      "summary": "8 años de experiencia como desarrollador, donde he formado partes de diversos equipos de sectores como banca, manufactura y fabricas de software, acutalmente me encuentro como arquitecto de software usando tecnologias de azure y net. Vivo en Apodaca N.L, Mexico.",
+      "summary": "Hola soy Felipe tengo 9 años de experiencia como desarrollador, donde he formado partes de diversos equipos de sectores como banca, manufactura y fabricas de software, acutalmente me desempeño como arquitecto de software.",
       "location": {
         "address": "",
         "postalCode": "66634",
@@ -119,7 +119,7 @@
     ],
     "skills": [
       {
-        "name": ".net",
+        "name": "dotnet",
         "level": "Avanzado",
         "keywords": [
           "Desarrollo Web", "Frontend"
